@@ -2,7 +2,7 @@
 
 # PRISM 
 R package: https://github.com/ropensci/prism  
-Documentation: get_PRISM.R  
+Documentation: get_prism.R  
 Tutorials: [Getting PRISM data in R](http://rpubs.com/collnell/prism)  
 
 
