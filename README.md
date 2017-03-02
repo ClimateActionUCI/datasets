@@ -1,9 +1,9 @@
 # Datasets
 
 # PRISM 
-R package: https://github.com/ropensci/prism 
-Documentation: get_PRISM.R 
-Tutorials: [Getting PRISM data in R](http://rpubs.com/collnell/prism) 
+R package: https://github.com/ropensci/prism  
+Documentation: get_PRISM.R  
+Tutorials: [Getting PRISM data in R](http://rpubs.com/collnell/prism)  
 
 
 | File | Short description | Data type | Files | Data generation | Temporal Resolution | Spatial coverage | Spatial resolution | Source URL | 
