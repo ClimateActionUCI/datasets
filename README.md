@@ -17,6 +17,10 @@ Tutorial: Working with CMIP5 data
 
 | File | Short description | Data type | Files | Data generation | Temporal Resolution | Spatial coverage | Spatial resolution | Source URL | 
 | -------------- | ----------------- | --------- | --------------- | ----------------- | ------------------- | ---------------- | ------------------ | ------------ |  
+
+# FedData
+Federated geospatial data including National Elevation Dataset (NED), Soil Survey Geographic (SSURGO) database and Global Historical Climatology Network (GHCN).
+Website: https://github.com/bocinsky/FedData
  
 # Shapefiles  
 Documentation: get_shapefiles.R
