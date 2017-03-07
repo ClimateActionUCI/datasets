@@ -20,8 +20,16 @@ Tutorial: Working with CMIP5 data
 
 # FedData
 Federated geospatial data including National Elevation Dataset (NED), Soil Survey Geographic (SSURGO) database and Global Historical Climatology Network (GHCN).
+
 Website: https://github.com/bocinsky/FedData
  
+# Biodiversity Data
+R package to search and retrieve data from the Global Biodiverity Information Facilty (GBIF).
+
+CRAN: https://cran.r-project.org/web/packages/rgbif/index.html
+
+Tutorial: https://ropensci.org/tutorials/rgbif_tutorial.html
+
 # Shapefiles  
 Documentation: get_shapefiles.R
 Tutorials: Working with spatial data 
