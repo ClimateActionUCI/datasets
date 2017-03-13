@@ -27,8 +27,8 @@ Website: https://github.com/bocinsky/FedData
 R package to search and retrieve data from the Global Biodiverity Information Facilty (GBIF).
 
 CRAN: https://cran.r-project.org/web/packages/rgbif/index.html
-
-Tutorial: https://ropensci.org/tutorials/rgbif_tutorial.html
+Tutorial:[Getting species occurrence data](http://rpubs.com/collnell/get_spdata)  
+Documentation: https://ropensci.org/tutorials/rgbif_tutorial.html
 
 # Shapefiles  
 Documentation: get_shapefiles.R
