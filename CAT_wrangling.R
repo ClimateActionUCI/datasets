@@ -14,6 +14,12 @@ setwd("yourwd") ##change location to your folder
 getwd() #tells you what the current directory is
 
 ## Read in data
+list_url<-'https://drive.google.com/file/d/0B-TN-iTwt6b3X3E2VzhUanQyOU0/view?usp=sharing'
+end_url<-'https://drive.google.com/file/d/0B-TN-iTwt6b3T1k2cjg2dnlQMFU/view?usp=sharing'
+download.file(list_url, destfile='data/ENV/listed_sp_ca.csv')
+download.file(end_url, destfile='data/ENV/end_sp_ca.csv')
+
+listed<-read.csv('data/ENV/listed_sp_ca.csv')
 ##files from https://drive.google.com/drive/folders/0B-TN-iTwt6b3eHRMREpyZU8yWXM?usp=sharing
 listed<-read.csv('data/ENV/listed_sp_ca.csv')
 str(listed) ##structure of the data
