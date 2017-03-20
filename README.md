@@ -6,7 +6,8 @@ Files listed in tables below can be downloaded from: https://drive.google.com/dr
 | Climate | PRISM | Current & historical climate | PRISM | raster | 1895-present | annual, monthly, daily, norms | USA | 4km or 800m | http://prism.oregonstate.edu/ |   
 | Climate | WorldClim | CMIP5/IPCC current & future climate projections | CMIP5 | raster | 2050, 2070 | monthly | World | 10, 5, 2.5 min(~4km), 30secs | http://worldclim.org/version1 |   
 | Climate | adaptwest | Ensemble CMIP5 projections | CMIP5_NA | raster | 2020, 2050, 2080 | monthly | North America | 1 km | https://adaptwest.databasin.org/pages/adaptwest-climatena |  
-| Ecological | GBIF | Species occurrence data | ENV | coordinates | varies | Day | World | lat/long | http://www.gbif.org/ |  
+| Eco | GBIF | Species occurrence data | ENV | coordinates | varies | Day | World | lat/long | http://www.gbif.org/ |  
+| Eco | USFWS | Endangered species critival habitats | ENV | shapefiles | current | -- | -- | -- |  https://ecos.fws.gov/ecp/report/table/critical-habitat.html |  
 | Political boundaries | US census | state & county boundaries | BOUNDARY | shapefile | -- | -- | USA | -- | ftp://ftp2.census.gov/geo/tiger/TIGER2016/ |   
 
 
@@ -42,10 +43,15 @@ R package to search and retrieve data from the Global Biodiverity Information Fa
 CRAN: https://cran.r-project.org/web/packages/rgbif/index.html  
 Tutorial: [Getting species occurrence data](http://rpubs.com/collnell/get_spdata)  
 
+### Vegetation  
+Critical habitat for endangered species: https://ecos.fws.gov/ecp/report/table/critical-habitat.html    
+
 | File | Short description | Data type | Data generation | Temporal Resolution | Spatial coverage | Spatial resolution | Source URL | 
 | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |  
 | end_sp_df | Observations of listed species  | csv | GBIF | 2007-2017 | Western USA | coordinates | ------------------ |  
 | listed_sp_ca | Federally listed species in CA | csv | Federal list | CA | ---------------- |  https://ecos.fws.gov/ecp0/reports/species-listed-by-state-report?state=CA&status=listed | ------------------ |   
+| crithab_all_layer | Aggregate critical habitats | shapefile | USFWS | -- | USA | -- | https://ecos.fws.gov/ecp/report/table/critical-habitat.html |  
+| crithab_all_shapefiles | Individual critical habitats for endangered species | shapefile | USFWS | -- | USA | -- | https://ecos.fws.gov/ecp/report/table/critical-habitat.html |  
 
 ### FedData
 Federated geospatial data including National Elevation Dataset (NED), Soil Survey Geographic (SSURGO) database and Global Historical Climatology Network (GHCN).
