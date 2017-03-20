@@ -1,5 +1,6 @@
 # Data sources   
 Files listed in tables below can be downloaded from: https://drive.google.com/drive/folders/0B-TN-iTwt6b3eHRMREpyZU8yWXM?usp=sharing  
+slides: http://rpubs.com/collnell/CATdata  
 
 | Domain | Source | Short description | Folder | Data type | Temporal scope | Spatial scope | Source URL |      
 | ---- | ----- | ------------ | -- | ------- | ---------- |  ----- |  ----------------- |  
@@ -16,7 +17,7 @@ Files listed in tables below can be downloaded from: https://drive.google.com/dr
 + coordinate system: `+proj=longlat +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs`  
 
 ___________________________   
-
+# Data files  
 ## Climate 
 ### PRISM  - past & current climate  
 R package: https://github.com/ropensci/prism  
