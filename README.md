@@ -38,7 +38,7 @@ AdaptWest: https://adaptwest.databasin.org/pages/adaptwest-climatena - ensemble 
 
  
 ## Ecological/environmental Data  
-### Speciesdata    
+### Species data    
 RGBIF package to search and retrieve data from the Global Biodiverity Information Facilty (GBIF).
 + CRAN: https://cran.r-project.org/web/packages/rgbif/index.html  
 + Tutorial: [Getting species occurrence data](http://rpubs.com/collnell/get_spdata)  
@@ -47,6 +47,7 @@ Vertebrate distribution maps: https://gapanalysis.usgs.gov/species/data/download
 ### Vegetation  
 Critical habitat for endangered species: https://ecos.fws.gov/ecp/report/table/critical-habitat.html    
 GAP land cover: https://gapanalysis.usgs.gov/gaplandcover/data/download/  
+Current and future land use: http://climate.calcommons.org/lists/datasets  
 
 
 | File | Short description | Data type | Data source | Temporal scope | Spatial scope | Source URL | 
