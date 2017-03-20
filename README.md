@@ -3,30 +3,31 @@
 # Climate 
 ## PRISM  - past & current climate  
 R package: https://github.com/ropensci/prism  
-Documentation: get_prism.R  
-Tutorials: [Getting PRISM data in R](http://rpubs.com/collnell/prism)  
+Tutorials: [Getting PRISM data in R](http://rpubs.com/collnell/get_prism)  
+
+| Files | Short description | Data type |  Source | Temporal coverage | Temporal Resolution | Spatial coverage | Spatial resolution | Source URL | 
+| -------------- | ----------------- | --------- | --------- | ----------------- | ------------------- | ---------------- | ------------------ | ------------ | 
+| -------------- | Spatial climate | raster | PRISM | Norms, daily, monthly, annual | 1895-present | USA | 4km or 800m | http://www.prism.oregonstate.edu/ |  
 
 
-| File | Short description | Data type | Files | Data generation | Temporal Resolution | Spatial coverage | Spatial resolution | Source URL | 
-| -------------- | ----------------- | --------- | --------------- | ----------------- | ------------------- | ---------------- | ------------------ | ------------ |  
-
-
-## CMIP5 - future climate projections     
+## CMIP - future climate projections     
 Documentation: get_CMIP5.R
 
-| File | Short description | Data type | Files | Data generation | Temporal Resolution | Spatial coverage | Spatial resolution | Source URL | 
+| Files | Short description | Data type | Data generation | Temporal Resolution | Spatial coverage | Spatial resolution | Source URL | 
 | -------------- | ----------------- | --------- | --------------- | ----------------- | ------------------- | ---------------- | ------------------ | ------------ |  
+| ------ | Spatial future climate | raster | WorldClim | monthly for 2050, 2070 | World | 2.5min | http://worldclim.org/cmip5_2.5m |  
 
 ## FedData
 Federated geospatial data including National Elevation Dataset (NED), Soil Survey Geographic (SSURGO) database and Global Historical Climatology Network (GHCN).
 
 Website: https://github.com/bocinsky/FedData
  
-# Biodiversity Data
+# Ecological Data  
+## Species occurrences  
 R package to search and retrieve data from the Global Biodiverity Information Facilty (GBIF).
 CRAN: https://cran.r-project.org/web/packages/rgbif/index.html  
 Tutorial: [Getting species occurrence data](http://rpubs.com/collnell/get_spdata)  
-Documentation: https://ropensci.org/tutorials/rgbif_tutorial.html  
+
 
 | File | Short description | Data type | Data generation | Temporal Resolution | Spatial coverage | Spatial resolution | Source URL | 
 | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | 
