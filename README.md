@@ -62,8 +62,7 @@ Federated geospatial data including National Elevation Dataset (NED), Soil Surve
 Website: https://github.com/bocinsky/FedData
 
 ## Political boundaries    
-Documentation: get_shapefiles.R
-Tutorials: Working with spatial data 
+Documentation: get_shapefiles.R  
 
 | File | Short description | Data type | Projection | Files | Data generation | Temporal scope | Spatial scope | Source URL | 
 | -------------- | ----------------- | --------- | --------- | --------------- | ---------------- | ------- | ------------------ | ------------ |
